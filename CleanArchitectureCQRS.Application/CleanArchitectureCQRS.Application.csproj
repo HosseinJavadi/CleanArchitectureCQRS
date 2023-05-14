@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Exceptions\" />
-    <Folder Include="Commands\" />
-    <Folder Include="Queries\" />
     <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitectureCQRS.Domain\CleanArchitectureCQRS.Domain.csproj" />
+    <ProjectReference Include="..\CleanArchitectureCQRS.Shared.Abstractions\CleanArchitectureCQRS.Shared.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
